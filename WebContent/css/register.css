@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
 p.button{
-	text-align: center
+	color: blue;
+	margin  : auto;
 }

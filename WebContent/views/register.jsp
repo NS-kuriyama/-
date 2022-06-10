@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<link href="../css/register.css" rel="stylesheet">
+<link rel="stylesheet" type ="text/css" href="<%=request.getContextPath()%>/css/register.css" >
 <form action="http://localhost:8080/MemberInformation/jp.co.aforce/register" method="post">
 	会員情報登録
 	<p>■名前</p>

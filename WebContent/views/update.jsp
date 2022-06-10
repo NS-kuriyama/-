@@ -1,10 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <link href="../css/register.css" rel="stylesheet">
-<form action="h" method="post">
+<form action="http://localhost:8080/MemberInformation/jp.co.aforce/search" method="post">
 	会員情報更新
-	<p>■会員番号</p>
-	<input>
+	<p>■会員番号</p>   <input type="submit" value="検索">
 	<p>■名前</p>
 	<p>
 		姓<input type="text" name="last_name" maxlength="32" required>
@@ -183,7 +182,8 @@
 	<p class="button">
 	<input type="button" onclick="location.href='menu.jsp'"value="戻る">
 	<input type="reset" value="リセット">
-	<input type="submit" value="登録">
+	<input type="submit" value="更新"onclick="goUpdate();">
 	</p>
-
+	<script src="./member.js">
+	</script>
 </form>

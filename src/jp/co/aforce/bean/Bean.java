@@ -4,9 +4,9 @@ public class Bean {
 	private String last_name;
 	private String first_name;
 	private String sex;
-	private String birth_year;
-	private String birth_month;
-	private String birth_day;
+	private int birth_year;
+	private int birth_month;
+	private int birth_day;
 	private String job;
 	private String phone_number;
 	private String mail_address;
@@ -29,22 +29,22 @@ public class Bean {
 	public  void setSex(String sex) {
 		this.sex =sex;
 	}
-	public String getBirth_Year() {
+	public int getBirth_Year() {
 		return birth_year;
 	}
-	public void setBirth_Year(String birth_year) {
+	public void setBirth_Year(int birth_year) {
 		this.birth_year = birth_year;
 	}
-	public String getBirth_Month() {
+	public int getBirth_Month() {
 		return birth_month;
 	}
-	public void setBirth_Month(String birth_month) {
+	public void setBirth_Month(int birth_month) {
 		this.birth_month = birth_month;
 	}
-	public String getBirth_Day() {
+	public int getBirth_Day() {
 		return birth_day;
 	}
-	public void setBirth_Day(String birth_day) {
+	public void setBirth_Day(int birth_day) {
 		this.birth_day = birth_day;
 	}
 	public String getJob() {

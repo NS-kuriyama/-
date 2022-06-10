@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <link href="../css/register.css" rel="stylesheet">
 <form action="h" method="post">
-	会員情報削除
+	会員情報削除    <input type
 	<p>■名前</p>
 	<p>
 		姓<input type="text" name="last_name" maxlength="32" required>
