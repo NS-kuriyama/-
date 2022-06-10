@@ -28,6 +28,8 @@ public class Register extends HttpServlet {
 		String job = request.getParameter("job");
 		String phone_number = request.getParameter("phone_number");
 		String mail_address = request.getParameter("mail_address");
+		
+		
 
 		RegisterCheckDAO rcdao = new RegisterCheckDAO();
 		try {
