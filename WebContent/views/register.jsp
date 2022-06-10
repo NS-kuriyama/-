@@ -179,9 +179,9 @@
 	<input type="text" name="mail_address" max="32" required>
 
 	<p class="button">
-	<input type="button" onclick="location.href='http://localhost:8080/MemberInformation/views/menu.jsp'"value="戻る">
-	<input type="reset" value="リセット">
-	<input type="submit" value="登録">
+	<input type="button"style="background-color:blue" onclick="location.href='http://localhost:8080/MemberInformation/views/menu.jsp'"value="戻る">
+	<input type="reset" style="background-color:blue" value="リセット">
+	<input type="submit"style="background-color:blue" value="登録">
 	</p>
 
 </form>

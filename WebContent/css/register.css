@@ -4,4 +4,6 @@
 p.button{
 	margin : auto;
 	color: blue;
+	width : 5em;
+	height : 3em;
 }
